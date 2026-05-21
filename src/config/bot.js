@@ -25,7 +25,7 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "Bronx Side Support",
         // Activity type number (0 = Playing).
         type: 0, 
       },
@@ -88,8 +88,8 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699", 
-      secondary: "#2F3136", 
+      primary: "#000000", 
+      secondary: "#ADD8E6", 
 
       // Standard status colors for success/error/warning/info messages.
       success: "#57F287", 
@@ -112,14 +112,14 @@ export const botConfig = {
 
       // Feature-specific colors.
       giveaway: {
-        active: "#57F287",
-        ended: "#ED4245",
+        active: "#ADD8E6",
+        ended: "#ADD8E6",
       },
       ticket: {
-        open: "#57F287",
-        claimed: "#FAA61A",
+        open: "#ADD8E6",
+        claimed: "#000000",
         closed: "#ED4245",
-        pending: "#99AAB5",
+        pending: "#000000",
       },
       economy: "#F1C40F",
       birthday: "#E91E63",
@@ -204,33 +204,33 @@ export const botConfig = {
     defaultCategory: null,
 
     // Role IDs allowed to manage/support tickets.
-    supportRoles: [],
+    supportRoles: [1507095502502498354],
 
     // Priority options users/staff can assign.
     priorities: {
       none: {
         emoji: "⚪",
-        color: "#95A5A6",
+        color: "#000000",
         label: "None",
       },
       low: {
         emoji: "🟢",
-        color: "#2ECC71",
+        color: "#000000",
         label: "Low",
       },
       medium: {
         emoji: "🟡",
-        color: "#F1C40F",
+        color: "#000000",
         label: "Medium",
       },
       high: {
         emoji: "🔴",
-        color: "#E74C3C",
+        color: "#000000",
         label: "High",
       },
       urgent: {
         emoji: "🚨",
-        color: "#E91E63",
+        color: "#000000",
         label: "Urgent",
       },
     },
