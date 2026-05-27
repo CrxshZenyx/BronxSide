@@ -89,45 +89,45 @@ export const botConfig = {
     colors: {
       // Main brand colors.
       primary: "#000000", 
-      secondary: "#ADD8E6", 
+      secondary: "#000000", 
 
       // Standard status colors for success/error/warning/info messages.
-      success: "#57F287", 
-      error: "#ED4245", 
-      warning: "#FEE75C", 
-      info: "#3498DB", 
+      success: "#000000", 
+      error: "#000000", 
+      warning: "#000000", 
+      info: "#000000", 
 
       // Neutral utility colors.
-      light: "#FFFFFF",
-      dark: "#202225",
-      gray: "#99AAB5",
+      light: "#000000",
+      dark: "#000000",
+      gray: "#000000",
 
       // Discord-style palette shortcuts.
-      blurple: "#5865F2",
-      green: "#57F287",
-      yellow: "#FEE75C",
-      fuchsia: "#EB459E",
-      red: "#ED4245",
+      blurple: "#000000",
+      green: "#000000",
+      yellow: "#000000",
+      fuchsia: "#000000",
+      red: "#000000",
       black: "#000000",
 
       // Feature-specific colors.
       giveaway: {
-        active: "#ADD8E6",
-        ended: "#ADD8E6",
+        active: "#000000",
+        ended: "#000000",
       },
       ticket: {
-        open: "#ADD8E6",
+        open: "#000000",
         claimed: "#000000",
-        closed: "#ED4245",
+        closed: "#000000",
         pending: "#000000",
       },
-      economy: "#F1C40F",
-      birthday: "#E91E63",
-      moderation: "#9B59B6",
+      economy: "#000000",
+      birthday: "#000000",
+      moderation: "#000000",
 
       // Ticket priority color mapping.
       priority: {
-        none: "#95A5A6",
+        none: "#000000",
         low: "#3498db",
         medium: "#2ecc71",
         high: "#f1c40f",
@@ -136,7 +136,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "Ghetto Dreams",
       // Footer icon URL (null = no icon).
       icon: null,
     },
@@ -436,8 +436,8 @@ export const botConfig = {
   // Set any feature to `false` to disable it globally.
   features: {
     // Core systems.
-    economy: true,
-    leveling: true,
+    economy: false,
+    leveling: false,
     moderation: true,
     logging: true,
     welcome: true,
@@ -445,11 +445,11 @@ export const botConfig = {
     // Community engagement systems.
     tickets: true,
     giveaways: true,
-    birthday: true,
+    birthday: false,
     counter: true,
 
     // Security and self-service systems.
-    verification: true,
+    verification: false,
     reactionRoles: true,
     joinToCreate: true,
 
