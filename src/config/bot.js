@@ -25,7 +25,7 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Bronx Side Support",
+        name: "Ghetto Dreams Support",
         // Activity type number (0 = Playing).
         type: 0, 
       },
@@ -443,7 +443,7 @@ export const botConfig = {
     welcome: true,
 
     // Community engagement systems.
-    tickets: true,
+    tickets: false,
     giveaways: true,
     birthday: false,
     counter: true,
