@@ -63,9 +63,9 @@ export const botConfig = {
 
     // Embed colors by application status.
     statusColors: {
-      pending: "#FFA500",
-      approved: "#00FF00",
-      denied: "#FF0000",
+      pending: "#000000",
+      approved: "#000000",
+      denied: "#000000",
     },
 
     // How long users must wait before submitting another application (hours).
@@ -78,7 +78,7 @@ export const botConfig = {
     deleteApprovedAfter: 30, 
 
     // Role IDs allowed to manage applications.
-    managerRoles: [], // Will be populated from environment or database
+    managerRoles: [1509301146727219235], // Will be populated from environment or database
   },
 
   // =========================
